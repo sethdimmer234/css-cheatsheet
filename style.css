@@ -1,0 +1,91 @@
+/* div{ */
+    /* width:100%; */
+    /* max-width: 200px; */
+    /*use max-width to hard code (px)*/
+    /* border:1px solid black; */
+    /* height:100vh; */
+    /* height:100vw; */
+    /* font-size: 12px; */
+    /* font-weight: 600; */
+    /* font-family: "Roboto", sans-serif; */
+
+    /* we use viewport height for landing pages */
+/* } */
+
+/* Avoid using height as much as possible */
+
+
+/* .red{ */
+    /* color:red; */
+/* } */
+
+/* .blue{ */
+    /* color: blue; */
+/* } */
+
+/* p{ */
+    /* color:black; */
+/* } */
+
+/* section{ */
+    /* height: 80vh; */
+    /* border:1px solid black; */
+/* } */
+
+/* .box{ */
+    /* width:200px; */
+    /* height:200px; */
+    /* background-color:green; */
+    /* border: 15px solid red; */
+    /* padding:15px; */
+    /* margin: 15px; */
+    /* box-sizing: border-box; */
+    /*41:20*/
+     /*means border plus the padding*/
+    /* box-sizing: content-box */
+    /*means just the content*/;
+/* } */
+
+/* padding in css works like a clock top,right,bottom,left */
+/* samething fo margin */
+
+
+/* 46:30 */
+
+/* complex properties in css*/
+
+/* display */
+/* The display property has 2 values */
+
+/* block*/
+
+/* Takes 100% of the WIDTH and starts on a new line
+<p>, <div> */
+
+/* inline */
+
+/* Doesn't allow you to set a width or height for element & starts on the same line
+<span>, <img> */
+
+/* position property */
+
+/* static(default) */
+/* Follows normal flow of the page */
+
+/* relative */
+
+/* follows normal flow of the page */
+/* Lets you position using top,left,bottom,right */
+
+
+/* absolute */
+
+/* Does NOT follow normal flow of the page */
+/* Lets you position top,left bottom,right */
+/* Position is based off the closest 'position:relative' parent */
+
+
+div{
+    height: 200px;
+    border: 3px solid black;
+}
